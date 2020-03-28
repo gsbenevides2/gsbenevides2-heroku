@@ -1,0 +1,17 @@
+{
+  "name": "gsbenevides2-heroku",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "Travis": "https://github.com/gsbenevides2/travis-backend-auth.git",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
