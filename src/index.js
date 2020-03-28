@@ -9,6 +9,6 @@ appList.map(appName=>{
 })
 
 
-app.listen(process.env._PORT||3003,()=>{
+app.listen(process.env.PORT||3003,()=>{
  console.log('Ativado')
 })
